@@ -9,8 +9,7 @@ typedef struct
     size_t size;
 } arena_t;
 
-
 int arena_create(arena_t *arena, size_t arena_size);
-void * arena_alloc(arena_t *arena, size_t size);
+void *arena_alloc(arena_t *arena, size_t size);
 void arena_free(arena_t *arena);
 #endif
