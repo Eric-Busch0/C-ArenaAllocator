@@ -7,7 +7,7 @@ int arena_create(arena_t *arena, size_t arena_size)
     arena->idx = 0;
     arena->size = arena_size;
 
-    return arena->start == NULL ? -1 : 0;
+    return arena->start != NULL ? 0 : -1;
 }
 void *arena_alloc(arena_t *arena, size_t size)
 {
