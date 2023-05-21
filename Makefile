@@ -10,4 +10,4 @@ test: default
 	${CC} -o ${TESTOUT} ${TESTSRC} -I src -larena_allocator -L build 
 	./example/test
 clean:
-	rm -rf *.o *.d ${OUT} *.out *.so
+	rm -rf *.o *.d ${OUT} *.out *.so ${TESTOUT}
