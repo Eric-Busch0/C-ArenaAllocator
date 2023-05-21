@@ -1,7 +1,7 @@
 CC=gcc
 OUT=arena_allocator
-SRCS=main.c \
-	arena_alloc.c
+SRCS=src/main.c \
+	src/arena_alloc.c
 default:
 	${CC} -o ${OUT} ${SRCS}
 
