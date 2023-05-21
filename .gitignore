@@ -1,4 +1,4 @@
 *.out
 arena_allocator
-build
+build/*
 *.so
