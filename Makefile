@@ -6,4 +6,4 @@ default:
 	${CC} -o ${OUT} ${SRCS}
 
 clean:
-	rm -rf *.o *.d ${OUT}
+	rm -rf *.o *.d ${OUT} *.out
